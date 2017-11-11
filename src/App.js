@@ -15,7 +15,7 @@ class App extends Component {
         </div>
 
         <div className="container">
-          <p className="App-intro"> Hello Magics!</p>
+          <p className="App-intro"> Hello Sunshine!</p>
             {/* Added this.props.children to dump all of the child components into place */}
             {this.props.City}
         </div>
