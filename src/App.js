@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import ReactDOM from 'react-dom';
-import City from './components/City/City';
+// import ReactDOM from 'react-dom';
+// const City = import City from './components/City/City';
+const City = require("./components/City/City");
 
 class App extends Component {
   render() {
@@ -14,7 +15,7 @@ class App extends Component {
         </div>
 
         <div className="container">
-          <p className="App-intro"> Hello Magic!</p>
+          <p className="App-intro"> Hello Magics!</p>
             {/* Added this.props.children to dump all of the child components into place */}
             {this.props.City}
         </div>
@@ -23,6 +24,8 @@ class App extends Component {
     );
   }
 }
+
+
 
 export default App;
 
